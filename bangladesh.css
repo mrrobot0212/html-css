@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+
+}
+.green{
+    height: 500px;
+    width: 900px ;
+    background-color: green;
+    margin: 250px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.red{
+    
+    height: 300px;
+    width: 300px;
+   background-color:  red;
+    border-radius: 200px;
+    margin-left: -150px;
+}
+@media screen and ( max-width:520px) {
+.green{
+    height: 200px;
+    width: 90%;
+    background-color: lightgreen;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.red{
+    
+    height: 120px;
+    width: 120px;
+   background-color:  red;
+    border-radius: 200px;
+    margin-left: -90px;
+    
+}
+}
