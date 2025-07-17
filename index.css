@@ -118,7 +118,7 @@ padding: 30px;
 
 @media screen and(max-width:420px){   
   .wrapper{
-            display: flex;
+            display:flex;
             justify-content: center;
             align-items: center;
             height: 200px;
@@ -136,6 +136,7 @@ width: 100px;
 }
 
   }
+  .
 
 
 

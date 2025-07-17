@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.page-1 {
+    background-image: url(/login.html/photos/cat-6748193_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+
+}
+
+.overly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top, rgba(120, 108, 108, 0.1), rgba(31, 29, 29, 0.6))
+}
+
+.content {
+    background: transparent;
+    text-align: center;
+    width: 900px;
+    height: 700px;
+}
+
+.content h1 {
+    font-size: 70px;
+    margin-bottom:1px ;
+    color: whitesmoke;
+
+}
+
+.content p {
+    font-size: 25px;
+    margin-bottom: 250px;
+    color: rgb(226, 233, 240);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+
+
+}
+
+.button button {
+    padding: 20px;
+    border-radius: 20px 50px;
+    color: rgb(142, 72, 72);
+    font-size: 15px;
+    font-weight: 800;
+
+    margin-top: 170px;
+    border-bottom: 4px solid seashell;
+    border-top: 3px solid cornflowerblue;
+    background-image: url(/login.html/photos/high\ nick\ .JPG);
+
+}
+
+/* @media screen and(max-width:376px) {
+
+    .body {
+        height: 16px;
+        width: 26px;
+        
+    }
+.content{
+    height: 16px;
+    width: 26px;
+}
+.overly{
+    height: 16px;
+    width: 26px;
+    background-color: black;
+    
+}
+.button{
+
+height: 10px;
+width: 15px;
+}
+}   */
+
+.page-2 {
+    padding: 150px 0;
+    max-width: 1320px;
+    margin: 0 auto ;
+
+
+}
+
+.contenar {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: rgb(205, 227, 227); */
+    /* height:100vh; */
+    width: 100%;
+    gap: 30px;
+    /* border: 5px solid rgb(186, 142, 142); */
+
+}
+
+.item-1 {
+
+
+    /* background-image:url(/login.html/photos/air\ force\ .JPG); */
+    background-position: center;
+    background-size: cover;
+
+}
+
+.item-2 {
+    height: 400px;
+    width: 500px;
+    background-image: url(/login.html/photos/high\ nick\ .JPG);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+.item-3 {
+    height: 400px;
+    width: 500px;
+    background-image: url(/login.html/photos/jorden.JPG);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+
+
+}
+
+.image {
+    height: 283px;
+    width: 100%;
+    /* border-radius: 0px  20px  ; */
+    /* border-top-right-radius: 50px; */
+    /* border-bottom-left-radius: 50px; */
+    border-radius: 30px;
+
+
+    background-image: url(/login.html/photos/air\ force\ .JPG);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.header {
+    font-family: "Work Sans", sans-serif;
+    /* border: 2px solid black;
+    /* height: 400px;  */
+    margin: 0 auto;
+    width: 650px;
+    padding: 40px 0;
+    text-align: center;
+
+}
+
+.header p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #8b8b8b;
+    text-transform: capitalize;
+    margin-bottom: 17px;
+
+}
+
+.header h2 {
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+/* .for{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height:100vh;
+    color: antiquewhite;
+} */
