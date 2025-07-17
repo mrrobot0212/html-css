@@ -8,9 +8,9 @@
 }
 
 .page-1 {
-    background-image: url("../photos/cat-6748193_640.jpg");
+    background-image: url("../photos/chef.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     height: 100vh;
 
@@ -23,7 +23,7 @@
     align-items: center;
     height: 100vh;
     width: 100%;
-    background: linear-gradient(to top, rgba(120, 108, 108, 0.1), rgba(31, 29, 29, 0.6))
+    background: linear-gradient(to top, rgba(120, 108, 108, 0.5), rgba(31, 29, 29, 0.6))
 }
 
 .content {
@@ -35,7 +35,7 @@
 
 .content h1 {
     font-size: 70px;
-    margin-bottom:1px ;
+    margin-bottom: 1px;
     color: whitesmoke;
 
 }
@@ -57,45 +57,80 @@
 .button button {
     padding: 20px;
     border-radius: 20px 50px;
-    color: rgb(142, 72, 72);
+    color: rgb(21, 20, 20);
     font-size: 15px;
     font-weight: 800;
 
     margin-top: 170px;
-    border-bottom: 4px solid seashell;
+    border-bottom: 4px solid rgb(94, 89, 85);
     border-top: 3px solid cornflowerblue;
-    background-image: url("../photos/high-nick.jpg");
+    /* background-image: url("../photos/high-nick.jpg"); */
 
 }
 
-/* @media screen and(max-width:376px) {
+@media (max-width: 720px) {
+    .page-1 {
+        padding: 0 20px;
+    }
 
+    .button {
+        justify-content: center;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+
+    .content p {
+        font-size: 24px;
+    }
+
+    .content h2 {
+        font-size: 16px;
+    }
+
+    .content button {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+}
+
+    
+
+@media screen (max-width:1500) {
     .body {
         height: 16px;
         width: 26px;
-        
     }
-.content{
-    height: 16px;
-    width: 26px;
-}
-.overly{
-    height: 16px;
-    width: 26px;
-    background-color: black;
-    
-}
-.button{
 
-height: 10px;
-width: 15px;
+    .content {
+        height: 16px;
+        width: 26px;
+    }
+
+    .overly {
+        height: 16px;
+        width: 26px;
+        background-color: black;
+
+    }
+
+    .button {
+
+        height: 10px;
+        width: 15px;
+
+    }
 }
-}   */
 
 .page-2 {
+
     padding: 150px 0;
     max-width: 1320px;
-    margin: 0 auto ;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
 
 
 }
@@ -113,56 +148,55 @@ width: 15px;
 }
 
 .item-1 {
-
-
-    /* background-image:url(/login.html/photos/air\ force\ .JPG); */
     background-position: center;
     background-size: cover;
+
 
 }
 
+
 .item-2 {
-    height: 400px;
-    width: 500px;
-    background-image: url("../photos/high-nick.jpg");
     background-position: center;
     background-size: cover;
-
-
 }
 
 
 .item-3 {
-    height: 400px;
-    width: 500px;
-    background-image: url("../photos/jorden.jpg");
     background-position: center;
     background-size: cover;
-    border: 2px solid black;
+}
 
+.image-1 {
+    height: 283px;
+    width: 100%;
+    border-radius: 30px 100px;
+    background-image: url("../photos/freczfrice\ .jpg");
+    background-position: center;
+    background-size: cover;
 
 }
 
-.image {
+.image-2 {
     height: 283px;
-    width: 100%;
-    /* border-radius: 0px  20px  ; */
-    /* border-top-right-radius: 50px; */
-    /* border-bottom-left-radius: 50px; */
-    border-radius: 30px;
 
-
-    background-image: url("../photos/air-force.jpg");
+    border-radius: 30px 100px;
+    background-image: url("../photos/pizza.jpg");
     background-position: center;
     background-size: cover;
+}
 
+.image-3 {
+    height: 283px;
+    width: 100%;
 
+    border-radius: 30px 100px;
+    background-image: url("../photos/stabery.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .header {
     font-family: "Work Sans", sans-serif;
-    /* border: 2px solid black;
-    /* height: 400px;  */
     margin: 0 auto;
     width: 650px;
     padding: 40px 0;
@@ -185,11 +219,71 @@ width: 15px;
 
 }
 
-/* .for{
+.button-1 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 50px;
-    height:100vh;
-    color: antiquewhite;
-} */
+}
+
+.button-1 button {
+    text-transform: capitalize;
+    padding: 20px;
+    border-radius: 35px;
+    color: rgb(10, 10, 10);
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 130px;
+    border-bottom: 4px solid rgb(128, 100, 80);
+    border-top: 3px solid rgb(104, 122, 157);
+
+
+}
+
+.contenar p {
+    font-size: 900;
+    margin-top: 3px;
+    text-transform: capitalize;
+
+
+}
+
+.contenar h3 {
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 900;
+    margin-top: 4px;
+}
+
+.contenar h4 {
+    font-size: medium;
+    text-transform: uppercase;
+    margin-top: 7px;
+}
+
+@media screen (max-width) {
+
+    .body {
+        height: 16px;
+        width: 26px;
+
+    }
+
+    .content {
+        height: 16px;
+        width: 26px;
+    }
+
+    .overly {
+        height: 16px;
+        width: 26px;
+        background-color: black;
+
+    }
+
+    .button {
+
+        height: 10px;
+        width: 15px;
+    }
+}
+
+@media screen (max-width: 1240) {}
