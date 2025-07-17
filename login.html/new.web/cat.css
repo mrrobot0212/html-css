@@ -8,7 +8,7 @@
 }
 
 .page-1 {
-    background-image: url(/login.html/photos/cat-6748193_640.jpg);
+    background-image: url("../photos/cat-6748193_640.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -64,7 +64,7 @@
     margin-top: 170px;
     border-bottom: 4px solid seashell;
     border-top: 3px solid cornflowerblue;
-    background-image: url(/login.html/photos/high\ nick\ .JPG);
+    background-image: url("../photos/high-nick.jpg");
 
 }
 
@@ -124,7 +124,7 @@ width: 15px;
 .item-2 {
     height: 400px;
     width: 500px;
-    background-image: url(/login.html/photos/high\ nick\ .JPG);
+    background-image: url("../photos/high-nick.jpg");
     background-position: center;
     background-size: cover;
 
@@ -135,7 +135,7 @@ width: 15px;
 .item-3 {
     height: 400px;
     width: 500px;
-    background-image: url(/login.html/photos/jorden.JPG);
+    background-image: url("../photos/jorden.jpg");
     background-position: center;
     background-size: cover;
     border: 2px solid black;
@@ -152,7 +152,7 @@ width: 15px;
     border-radius: 30px;
 
 
-    background-image: url(/login.html/photos/air\ force\ .JPG);
+    background-image: url("../photos/air-force.jpg");
     background-position: center;
     background-size: cover;
 
