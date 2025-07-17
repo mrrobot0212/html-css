@@ -67,61 +67,57 @@
     /* background-image: url("../photos/high-nick.jpg"); */
 
 }
-
-@media (max-width: 720px) {
-    .page-1 {
-        padding: 0 20px;
-    }
-
-    .button {
-        justify-content: center;
-    }
-
-    .content h1 {
-        font-size: 40px;
-    }
-
-    .content p {
-        font-size: 24px;
-    }
-
-    .content h2 {
-        font-size: 16px;
-    }
-
-    .content button {
-        padding: 15px 20px;
-        font-size: 14px;
-    }
+/* Default styles (mobile-first) */
+body {
+  font-size: 16px;
+  background-color: #f0f0f0;
 }
 
-    
-
-@media screen (max-width:1500) {
-    .body {
-        height: 16px;
-        width: 26px;
-    }
-
-    .content {
-        height: 16px;
-        width: 26px;
-    }
-
-    .overly {
-        height: 16px;
-        width: 26px;
-    
-
-    }
-
-    .button {
-
-        height: 10px;
-        width: 15px;
-
-    }
+/* Small devices (phones) */
+@media screen and (max-width: 575px) {
+  body {
+    font-size: 14px;
+    background-color: #e0e0e0;
+  }
 }
+
+/* Medium devices (tablets) */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  body {
+    font-size: 15px;
+    background-color: #d0d0d0;
+  }
+}
+
+/* Large devices (small laptops) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 16px;
+    background-color: #c0c0c0;
+  }
+}
+
+/* Extra large devices (desktops) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  body {
+    font-size: 17px;
+    background-color: #b0b0b0;
+  }
+}
+
+/* XXL devices (large desktops) */
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 18px;
+    background-color: #a0a0a0;
+     background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+  }
+}
+
+
 
 .page-2 {
 
@@ -222,68 +218,58 @@
 .button-1 {
     display: flex;
     justify-content: center;
+    
+    
+
 }
 
 .button-1 button {
     text-transform: capitalize;
-    padding: 20px;
+    padding: 21px 32px;
     border-radius: 35px;
     color: rgb(10, 10, 10);
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 17px;
+    font-weight: 700;
     margin-top: 130px;
     border-bottom: 4px solid rgb(128, 100, 80);
     border-top: 3px solid rgb(104, 122, 157);
-
-
+    background-color: #52C303;
+    
 }
 
 .contenar p {
-    font-size: 900;
-    margin-top: 3px;
+    font-size:medium;
     text-transform: capitalize;
+    color: #101010;
+    opacity: 70%;
+    line-height:18px;
+    font-weight: 900;
 
 
 }
 
 .contenar h3 {
     text-transform: uppercase;
-    font-size: large;
-    font-weight: 900;
+    font-size:larger;
+    font-weight: 700;
     margin-top: 4px;
+    color: #0a0000;
+    background-color:#52C303 ;
+    border-radius: 30px;
+    opacity: 70%;
+    padding: 14px 32px;
+    height: 58px;
+    width: 187;
+    text-align: center;
+    
 }
 
-.contenar h4 {
-    font-size: medium;
+.contenar h2 {
+    font-size:40;
     text-transform: uppercase;
     margin-top: 7px;
+    font-weight:700;
+    color: #101010;
+    margin-bottom: 4px;
 }
 
-@media screen (max-width) {
-
-    .body {
-        height: 16px;
-        width: 26px;
-
-    }
-
-    .content {
-        height: 16px;
-        width: 26px;
-    }
-
-    .overly {
-        height: 16px;
-        width: 26px;
-        background-color: black;
-
-    }
-
-    .button {
-
-        height: 10px;
-        width: 15px;
-    }
-}
-
-@media screen (max-width: 1240) {}
