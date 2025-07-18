@@ -7,6 +7,7 @@
     box-sizing: border-box
 }
 
+/* page 1 start  */
 .page-1 {
     background-image: url("../photos/chef.jpg");
     background-repeat: no-repeat;
@@ -65,60 +66,13 @@
     border-bottom: 4px solid rgb(94, 89, 85);
     border-top: 3px solid cornflowerblue;
     /* background-image: url("../photos/high-nick.jpg"); */
-
-}
-/* Default styles (mobile-first) */
-body {
-  font-size: 16px;
-  background-color: #f0f0f0;
 }
 
-/* Small devices (phones) */
-@media screen and (max-width: 575px) {
-  body {
-    font-size: 14px;
-    background-color: #e0e0e0;
-  }
-}
-
-/* Medium devices (tablets) */
-@media screen and (min-width: 576px) and (max-width: 767px) {
-  body {
-    font-size: 15px;
-    background-color: #d0d0d0;
-  }
-}
-
-/* Large devices (small laptops) */
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  body {
-    font-size: 16px;
-    background-color: #c0c0c0;
-  }
-}
-
-/* Extra large devices (desktops) */
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-  body {
-    font-size: 17px;
-    background-color: #b0b0b0;
-  }
-}
-
-/* XXL devices (large desktops) */
-@media screen and (min-width: 1200px) {
-  body {
-    font-size: 18px;
-    background-color: #a0a0a0;
-     background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    height: 100vh;
-  }
-}
+/* page 1 end */
 
 
 
+/* page 2 start */
 .page-2 {
 
     padding: 150px 0;
@@ -148,6 +102,7 @@ body {
     background-size: cover;
 
 
+
 }
 
 
@@ -165,7 +120,7 @@ body {
 .image-1 {
     height: 283px;
     width: 100%;
-    border-radius: 30px 100px;
+    border-radius: 30px;
     background-image: url("../photos/freczfrice\ .jpg");
     background-position: center;
     background-size: cover;
@@ -175,7 +130,7 @@ body {
 .image-2 {
     height: 283px;
 
-    border-radius: 30px 100px;
+    border-radius: 30px;
     background-image: url("../photos/pizza.jpg");
     background-position: center;
     background-size: cover;
@@ -185,7 +140,7 @@ body {
     height: 283px;
     width: 100%;
 
-    border-radius: 30px 100px;
+    border-radius: 30px;
     background-image: url("../photos/stabery.jpg");
     background-position: center;
     background-size: cover;
@@ -206,20 +161,19 @@ body {
     color: #8b8b8b;
     text-transform: capitalize;
     margin-bottom: 17px;
+    text-align: center;
 
 }
 
 .header h2 {
     font-size: 48px;
-    font-weight: bold;
-
+    font-weight: bolder;
+    text-align: center;
 }
 
 .button-1 {
     display: flex;
     justify-content: center;
-    
-    
 
 }
 
@@ -228,48 +182,207 @@ body {
     padding: 21px 32px;
     border-radius: 35px;
     color: rgb(10, 10, 10);
+    opacity: 70%;
     font-size: 17px;
     font-weight: 700;
-    margin-top: 130px;
+    margin-top: 100px;
     border-bottom: 4px solid rgb(128, 100, 80);
     border-top: 3px solid rgb(104, 122, 157);
     background-color: #52C303;
-    
+
 }
 
 .contenar p {
-    font-size:medium;
+    font-size: medium;
     text-transform: capitalize;
     color: #101010;
     opacity: 70%;
-    line-height:18px;
+    line-height: 18px;
     font-weight: 900;
-
-
+    text-align: center;
 }
 
 .contenar h3 {
     text-transform: uppercase;
-    font-size:larger;
+    font-size: larger;
     font-weight: 700;
-    margin-top: 4px;
+    margin: 10px;
     color: #0a0000;
-    background-color:#52C303 ;
-    border-radius: 30px;
+    background-color: #52C303;
+    border-radius: 7px;
     opacity: 70%;
-    padding: 14px 32px;
-    height: 58px;
-    width: 187;
+    padding: 10px 20px;
+    height: 50px;
+    width: 202px;
     text-align: center;
-    
+
 }
 
 .contenar h2 {
-    font-size:40;
+    font-size: 40;
     text-transform: uppercase;
     margin-top: 7px;
-    font-weight:700;
+    font-weight: 700;
     color: #101010;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
+.green {
+    display: flex;
+    justify-content: center;
+}
+
+/* page 2 end  */
+
+/*page 3 strat   */
+.page-3 {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(229, 221, 211)
+}
+.banner-3{
+    display: flex;
+    height: 671px;
+    width: 1920px;
+    border:2px solid black;
+
+}
+.image-4{
+    background-image: url(../photos/resturent\ .jpg);
+    background-size: cover;
+    background-position: center;
+    height: 671px;
+    width: 960px;
+
+}
+.info{
+    background-color: rgb(47, 51, 51);
+     height: 671px;
+    width: 960px; 
+    
+} 
+.content-3{
+
+    margin:  110px 0;
+    color: rgb(239, 242, 244);
+    text-align: center;
+    
+}
+.content-3 h2{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 64px;
+    margin-bottom: 24px;
+}
+.content-3 p{
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 60%;
+}
+.content-3 h3{
+    font-size: 38px;
+    font-weight: 800;
+    margin-top: 90px;
+    opacity: 70%;
+}
+.icon-main{
+    / background-color: #52C303; */
+    width: 26px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+    opacity: 98%;
+}
+.icon-1{
+    background-image: url(../photos/instagram.png);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+}
+.icon-2{
+    background-image: url(../photos/facebook-1924510_640.webp);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+}
+.icon-3{
+    background-image: url(../photos/map.png);
+    height:44px;
+    width: 40px;
+    background-size: cover;
+}
+.icon-4{
+    background-image: url(../photos/whatsapp-1623579_640.webp);
+    height:40px;
+    width: 40px;
+    background-size: cover;
+}
+/* page 3 end */
+
+/* page 4 start */
+ .page-4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 234, 202);
+} 
+
+.banner-4{
+    background: linear-gradient(to top,rgba(53, 45, 45, 0.9),rgba(223, 203, 203, 0.9));
+    height: 671px;
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+} 
+
+
+.main-banner{ 
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 671px;
+    width: 1920px;
+    align-items: center;
+    background-image: url(../photos/food.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content-4{
+    
+    height: 398px;
+    width: 830px;
+    border: 2px solid whitesmoke;
+    font-family: "Work Sans", sans-serif;
+}
+.content-4 h2 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    line-height: px;
+
+}
+.content-4 p {
+    font-size: 24px;
+    font-weight: medium;
+    opacity: 70%;
+    text-align: center;
+    margin-top: 23px;
+
+}
+.content-4 h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 53px;
+}
