@@ -79,7 +79,7 @@
     max-width: 1320px;
     margin: 0 auto;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: transparent;
 
 
@@ -236,117 +236,171 @@
 /* page 2 end  */
 
 /*page 3 strat   */
-.page-3 {
-    font-family: "Work Sans", sans-serif;
+.page-3 { 
+   font-family: "Work Sans", sans-serif;
     display: flex;
     justify-content: center;
-    height: 100vh;
-    width: 100%;
+    height: 671px;;
+    width: 1920px;
     align-items: center;
-    background-color: rgb(229, 221, 211)
+    background-color: rgb(229, 221, 211) ;
+    margin: 0 AUTO;
 }
-.banner-3{
+
+.banner-3 {
     display: flex;
     height: 671px;
     width: 1920px;
-    border:2px solid black;
+    border: 2px solid black; 
 
 }
-.image-4{
-    background-image: url(../photos/resturent\ .jpg);
+
+.image-4 {
+    background-image: url(../photos/beef.avif);
     background-size: cover;
     background-position: center;
     height: 671px;
     width: 960px;
 
 }
-.info{
-    background-color: rgb(47, 51, 51);
-     height: 671px;
-    width: 960px; 
-    
-} 
-.content-3{
+.image-40{
+    background: linear-gradient(to left ,rgba(0,0,0,0.5),rgb(148, 100, 100,0.3));
+    height: 671px;
+    width: 960px;
+}
 
-    margin:  110px 0;
+.info {
+    background-color: rgb(47, 51, 51);
+    height: 671px;
+    width: 960px;
+
+}
+
+.content-3 {
+
+    margin: 110px 0;
     color: rgb(239, 242, 244);
     text-align: center;
     
+
 }
-.content-3 h2{
+
+.content-3 h2 {
     font-size: 48px;
     font-weight: bold;
     line-height: 64px;
     margin-bottom: 24px;
 }
-.content-3 p{
+
+.content-3 p {
     font-size: 24px;
     font-weight: 500;
     opacity: 60%;
 }
-.content-3 h3{
+
+.content-3 h3 {
     font-size: 38px;
     font-weight: 800;
     margin-top: 90px;
     opacity: 70%;
 }
-.icon-main{
-    / background-color: #52C303; */
-    width: 26px;
+
+.icons{
     height: 40px;
     display: flex;
     justify-content: center;
     gap: 29px;
     opacity: 98%;
 }
-.icon-1{
-    background-image: url(../photos/instagram.png);
+.icon{
     height: 40px;
     width: 40px;
     background-size: cover;
+    cursor:pointer;
+
 }
-.icon-2{
+
+.icon-1 {
+    background-image: url(../photos/resturent\ .jpg);
+   
+}
+
+.icon-2 {
     background-image: url(../photos/facebook-1924510_640.webp);
-    height: 40px;
-    width: 40px;
-    background-size: cover;
+   
 }
-.icon-3{
+
+.icon-3 {
     background-image: url(../photos/map.png);
-    height:44px;
-    width: 40px;
-    background-size: cover;
+    height: 44px;
 }
-.icon-4{
+
+.icon-4 {
     background-image: url(../photos/whatsapp-1623579_640.webp);
-    height:40px;
-    width: 40px;
-    background-size: cover;
+   
 }
+
 /* page 3 end */
 
-/* page 4 start */
- .page-4{
+
+
+/* page 4 start  */
+
+.page-5{
+     min-height: 991px;
+    width:100%;
+    background-color: #8b8b8b;
+    margin: 0 auto ;
+}
+
+.body-5{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /* page 4 end  */
+
+
+
+
+/* page 5 start */
+
+ .page-4 {
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(234, 234, 202);
+
 } 
 
-.banner-4{
-    background: linear-gradient(to top,rgba(53, 45, 45, 0.9),rgba(223, 203, 203, 0.9));
-    height: 671px;
-    width: 1920px;
+.banner-4 {
+    background: linear-gradient(to top, rgba(53, 45, 45, 0.9), rgba(223, 203, 203, 0.9));
+    min-height: 671px;
+    width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
-     
-} 
+
+}
 
 
-.main-banner{ 
+.main-banner {
     font-family: "Work Sans", sans-serif;
     display: flex;
     justify-content: center;
@@ -358,13 +412,16 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.content-4{
-    
+
+.content-4 {
+
     height: 398px;
     width: 830px;
-    border: 2px solid whitesmoke;
+    /* padding: 20px;
+    border: 2px solid whitesmoke; */
     font-family: "Work Sans", sans-serif;
 }
+
 .content-4 h2 {
     font-size: 48px;
     font-weight: bold;
@@ -372,6 +429,7 @@
     line-height: px;
 
 }
+
 .content-4 p {
     font-size: 24px;
     font-weight: medium;
@@ -380,9 +438,25 @@
     margin-top: 23px;
 
 }
+
 .content-4 h3 {
     text-align: center;
     font-size: 32px;
     font-weight: 800;
     margin-top: 53px;
+    margin-bottom: 50px;
 }
+
+ /* .page4-icon{
+    width: 26px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+    opacity:98%;
+}
+.icon-5{
+     background-image: url(../photos/instagram.png);
+   
+}  */
+  /*  page 5 end  */
