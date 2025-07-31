@@ -1,0 +1,129 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+}
+.manu-icon{
+    width: 49px;
+    height: auto;
+
+}
+nav{
+    width: 100%;
+    /* position: fixed; */
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+nav ul{ 
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+nav ul li{
+    list-style: none;
+    /* text-decoration: none; */
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(246, 241, 241);
+    font-weight: 700;
+}
+
+.login a{
+    text-decoration: none;
+    color: rgb(250, 249, 249);
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+
+    font-weight: 500;
+    font-size: 21px;
+}
+i{
+    font-size: 14px;
+    
+}
+.main-hero{
+    position: relative;
+    padding: 0 30px 70px 30px ;
+}
+.content{
+    max-width: 671px;
+    margin: 0 auto;
+    padding: 60px 0 70px 0;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content h1{
+    font-size: 72px;
+    line-height: 0.9;
+    color: rgb(255, 254, 254);
+    text-align: center;
+}
+.content p{
+    font-size: 19.2px;
+    margin-top: 20px;
+    color: rgb(253, 252, 252);
+    font-weight: 800;
+    opacity: 60%;
+    text-align: center;
+}
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.hero-buttons button{
+    padding: 10px 10px;
+    font-size: 17px;
+    font-weight: 800;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.btn-1{
+    background-color: blue;
+    color: aliceblue;
+    opacity: 70%;
+    
+}
+.btn-1:hover{
+    background-color: rgb(122, 122, 224);
+    transition: 0.5s;
+    color: rgb(255, 253, 253);
+}
+.btn-2{
+    background-color: transparent;
+    color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.btn-2:hover{
+    background-color:black;
+    color: rgb(219, 196, 196);
+}
+
+img{
+    width: 100%;
+    border-radius: 18px;
+    margin-top: 30px;
+
+    
+
+}
