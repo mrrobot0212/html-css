@@ -1,0 +1,251 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 1 page start  */
+.page-1{
+    width: 100%;
+    background-color: rgb(167, 213, 187);
+    display: flex;
+    justify-content: center;
+    
+    gap:7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.banner-1{
+    background-image: url(../photos/car-6879134_1280.jpg);
+    height: 841px;
+    width: 100%;
+    background-color: aquamarine;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-1{
+    height: 841px;
+    width: 100%;
+    background-color:rgb(101, 97, 88) ;
+    border-radius: 10px 319px 45px 20px;
+}
+.text-2{
+    height: 400px;
+    width: 100%;
+    
+}
+.text-1 h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 47px;
+    font-weight: 800;
+    text-transform: capitalize;
+    list-style: armenian;
+    margin-right: 30px;
+
+
+}
+.text-1 p{
+    font-size: 18px;
+    padding: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(203, 212, 221);
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.lower{
+    width: 100%;
+    height: auto;
+}
+.lower h3 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(34, 34, 34);
+    
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 900;
+
+}
+.icon{
+display: flex;
+justify-content: center;
+gap: 37px;
+
+}
+.icon-1{
+    background-image: url(../photos/facebook-1924510_640.webp);
+    height: 47px;
+    width: 48px; 
+    border-radius: 11px;
+    background-position: center;
+    background-size: cover;
+    
+}
+.icon-2{
+     background-image: url(../photos/instagram.png);
+    height: 47px;
+    width: 48px; 
+    border-radius: 11px;
+    background-position: center;
+    background-size: cover;
+}
+.icon-3{
+     background-image: url(../photos/whatsapp-1623579_640.webp);
+    height: 47px;
+    width: 48px; 
+    border-radius: 11px;
+    background-position: center;
+    background-size: cover;
+}
+.icon-4{ 
+background-image: url(../photos/map.png);
+    height: 47px;
+    width: 48px; 
+    border-radius: 11px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* 2 page start */
+.page-2{
+    background-image: url(../photos/high-nick.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.page-2overlape{
+ background: linear-gradient(to top, rgba(23, 22, 22, 0.5), rgba(17, 16, 16, 0.6))
+
+}
+.manu-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px 50px 30px; 
+    
+    
+    
+}
+.logo{
+    background-image: url(../photos/air-force.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70px;
+    width: 90px;
+    border-radius: 30px 20px 30px 20px;
+    
+
+}
+.bari{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-decoration: none;
+     text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 900;
+    font-style: oblique;
+    color: floralwhite;
+    cursor: pointer;
+    
+}
+    
+
+ .bari :hover{
+    color:aqua ;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:7px ;
+    color: rgb(243, 245, 248);
+    cursor:progress ;
+}    
+.login h4{
+    font: 900;
+    font-size: 35px;
+    font-style: italic;  
+}
+.login i {
+    font-size: 19px;
+    
+    
+}
+.banner-2{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    width: 100%;
+
+    
+}
+.overlay-img{
+
+ background: linear-gradient(to left,rgba(240, 237, 237, 0.00), rgba(58, 53, 53, 0.9))
+
+
+
+}
+.img{
+ background-image: url(../photos/car-6879134_1280.jpg);
+    height: 780px;
+    width: 1870px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+
+}
+.img-content{
+    width: 700px;
+    height: auto;
+    
+}
+.car-h2{
+    text-align: left;
+    color: aliceblue;
+    text-transform: capitalize;
+    font-size: 45px;
+    padding: 46px;
+    text-align: center;
+    
+}
+.car-p{
+    width: 700px;
+    text-align: left;
+    color: white;
+    font-size: 20px;padding: 0 100px 0 10px;
+    opacity: 60%;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 40px;
+    text-align: center;
+}
+#p-sasa{
+    /* height: 640px; */
+    width: 400px;
+    text-align: center;
+    
+}
+.page2-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(22, 111, 189);
+    padding: 110px 0 120px 0;
+    gap: 25px;
+    
+}
+.page2-icons i{
+    font-size: 55px;
+     /* background-color: aliceblue;  */
+}
