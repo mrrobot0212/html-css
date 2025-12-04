@@ -851,20 +851,20 @@ body {
 
 }
 
-@media (max-width:420px) {
+@media (max-width:380px) {
 
 .navbar {
     margin: 0 auto;
 }
 
 .heading {
-    max-width: 460px;
+    max-width: 380px;
     padding: 14px;
 }
 
 .description {
     padding: 14px;
-    max-width: 420px;
+    max-width: 380px;
 }
 
 
@@ -872,17 +872,64 @@ body {
     /* margin: 0 auto; */
     gap: 120px;
     justify-content: space-between;
-    margin-left: 70px;
+    margin-left: 40px;
+    
+}
+.partners-section{
+    padding: 10px;
+}
+.continer h4{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.case-study-heading{
+    padding: 10px;
+}
+.case-study-heading h2{
+max-width: 380px;
+font-size: 30px;
+}
+.case-study-heading p{
+    max-width: 370px;
 }
 
+.case-study-cards{
+    padding: 6px;
+}
+.comment-box-continer{
+    padding: 60px 20px;
+}
 
-
+.comment-box-continer h2{
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.comment-box-continer img{
+    width: 100px;
+    height: 40px;
+}
 
 .service-center-text {
     margin: 0px;
 }
+.service-img img{
+    height: 300px;
+    width: 300px;
+}
+.service-center-text{
+    padding: 10px;
+}
 
-
+.services{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.services span{
+    font-size: 14px;
+}
+.services p{
+    font-size: 12px;
+    line-height: 1.3;
+}
 }
 
 
