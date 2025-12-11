@@ -395,6 +395,83 @@ body {
 
 
 
+/* informaion section start  */
+
+
+.information-section{
+padding:160px 312px 0px ;
+}
+
+.information-wrapper{
+border: 2px solid rgb(255, 255, 255);
+padding: 40px  50px 80px 80px;
+background-color: black;
+border-radius: 40px;
+}
+
+.information-heading{
+ margin: 40px 20px;
+ display: flex;
+ flex-direction: column;
+}
+
+
+.information-heading h2{
+font-size: 35px;
+margin-bottom: 20px;
+color: white;
+text-transform: capitalize;
+}
+
+.information-heading button{
+height: 40px;
+width: 100px;
+border-radius: 100px;
+font-size: 20px;
+font-weight: 700;
+text-transform: capitalize;
+cursor: pointer;
+transition: 0.3s ease-in;
+}
+.information-heading button:hover{
+    background-color: #c2b0b0;
+}
+
+.info-bar{
+height: 2px;
+width: 70%;
+background-color: #4e4848;
+}
+.head-1{
+    color: #fcf6f6;
+    font-size: 20px;
+    margin: 40px 0px 0px 25px
+}
+
+.information-officec{
+display: flex;
+gap: 100px;
+padding: 20px 20px;
+margin-top: 10px;
+}
+
+.information-office{
+    
+}
+.information-office p{
+ font-size: 14px;
+ color: rgb(172, 168, 168);
+}
+.information-office h4{
+    margin-bottom: 5px;
+    color: rgb(240, 237, 237);
+}
+
+/* information section end  */
+
+
+
+
 
 /* media screen start  */
 
