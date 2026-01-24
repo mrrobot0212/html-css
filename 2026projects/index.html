@@ -13,19 +13,19 @@
 
 <body>
     <!-- navigation var  -->
-    <section class=" flex w-full p-12 justify-center">
-        <div class="flex  w-550 justify-between pl-5 pr-5">
+    <section class=" flex w-full p-12 justify-center sm:p-0" >
+        <div class="flex w-550 justify-between pl-5 pr-5 sm:w-150 sm:pt-10 lg:w-full 2xl:pr-49 pl-49 2xl:text-xl">
 
-            <div class=" flex gap-10 ml-80 text-xl font-medium md:ml-0 md:text-lg">
-                <img src="SVG.png" alt="" class="h-13 w-35 object-center">
-                <button>Features</button>
-                <button>Testimonials</button>
-                <button>Pricing </button>
+            <div class=" flex gap-10 ml-80 text-xl font-medium sm:ml-0  lg:text-lg">
+                <img src="SVG.png" alt="" class="h-13 w-35 object-center lg:w-27 lg:h-10">
+                <button class=" sm:hidden lg:block">Features</button>
+                <button class="sm:hidden lg:block">Testimonials</button>
+                <button class="sm:hidden lg:block">Pricing </button>
             </div>
 
-            <div class="flex gap-10 mr-70 text-xl md:mr-4 md:text-lg">
-                <button class="font-medium uppercase">Sign in</button>
-                <button class="pt-1 pb-1 pl-5 pr-5 bg-blue-500 rounded-4xl text-white font-medium ">Get started
+            <div class="flex gap-10 mr-70 text-xl sm:mr-0">
+                <button class="font-medium uppercase sm:hidden lg:block lg:text-lg 2xl:text-xl">Sign in</button>
+                <button class="pt-1 pb-1 pl-5 pr-5 bg-blue-500 rounded-4xl text-white font-medium lg:text-lg 2xl:text-xl">Get started
                     today</button>
             </div>
         </div>
@@ -33,20 +33,20 @@
     </section>
 
     <!-- hero section-->
-    <section class=" flex justify-center ">
-        <div class="w-380 flex-col pt-39 pr-12 pb-16 pl-30 md:pl-10 md:pr-10 ">
-            <div class="mx-30 md:mx-0">
-                <div class="w-300 ">
-                    <h1 class="text-8xl font-medium pb-7 leading-26 text-center  md:w-300 ">
+    <section class="">
+        <div class=" flex-col pt-39 pr-12 pb-16 pl-30 sm:w-140 sm:pt-0 sm:pl-0 sm:pr-0 mx-auto lg:w-full 2xl:w-300">
+            <div class="mx-30 sm:mx-0 sm:w-">
+                <div class="flex flex-col">
+                    <h1 class="  text-center sm:text-7xl sm:leading-17 sm:mt-28 2xl:text-8xl font-medium pb-7 2xl:leading-26 2xl:mt-45">
                         Accounting <span class="text-blue-700">made simple</span> for small businesses.
                     </h1>
                 </div>
-                <div class="w-230  flex justify-center font-medium text-2xl ml-29 md:text-center md:mx-38  md:font-bold ">
-                    <p class="mx-17 leading-10 text-center">
+                <div class="w-200 mx-auto justify-center font-medium text-2xl sm:w-140 2xl:w-200 mt-6">
+                    <p class=" leading-10 text-center">
                         Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.
                     </p>
                 </div>
-                <div class=" flex gap-10 mt-20  justify-center">
+                <div class=" flex gap-10 mt-20  justify-center 2xl:mt-40">
                     <button class="pt-3 pb-3 pl-7 pr-7 bg-black hover:bg-gray-700 rounded-4xl shadow-xl text-white cursor-pointer"> get
                         6 months free
                     </button>
@@ -57,17 +57,17 @@
                 </div>
             </div>
             <!-- low -->
-            <div class=" mt-52">
+            <div class=" mt-52 lg:mt-36">
                 <div class=" flex justify-center">
-                    <p class=" font-medium mb-6 text-2xl">Trusted by these six companies so far</p>
+                    <p class=" font-medium mb-6 text-2xl opacity-70 lg:text-xl 2xl:text-2xl mb-15">Trusted by these six companies so far</p>
                 </div>
-                <div class=" xl:flex justify-between gap-5 xl:mr-40 xl:ml-40 mt-7 md:grid grid-cols-3 md:grid-rows-2 md:ml-75 md:mr-75">
-                    <img src="Transistor.png" alt="transistor" class="xl:h-15 md:h-12">
-                    <img src="Tuple.png" alt="Tuple" class="xl:h-15 md:h-12">
-                    <img src="Item.png" alt="statickit" class="xl: h-15 md:h-12">
-                    <img src="Item (1).png" alt="mirage" class="xl: h-15 md:h-12">
-                    <img src="Item (2).png" alt=" laravel" class=" xl:h-15 md:h-12">
-                    <img src="Statamic.png" alt="statamic" class=" xl:h-15 md:h-12">
+                <div class=" gap-5 sm:grid grid-cols-3 sm:mt-10 xl:flex justify-center xl:gap-20 lg:mt-5 ">
+                    <img src="Transistor.png" alt="transistor" class="xl:h-15 md:h-12 2xl:h-17">
+                    <img src="Tuple.png" alt="Tuple" class="xl:h-15 md:h-12 2xl:h-17">
+                    <img src="Item.png" alt="statickit" class="xl: h-15 md:h-12 2xl:h-17">
+                    <img src="Item (1).png" alt="mirage" class="xl: h-15 md:h-12 2xl:h-17">
+                    <img src="Item (2).png" alt=" laravel" class=" xl:h-15 md:h-12 2xl:h-17">
+                    <img src="Statamic.png" alt="statamic" class=" xl:h-15 md:h-12 2xl:h-17">
 
                 </div>
             </div>
@@ -76,58 +76,59 @@
 
     <!-- book section with image  -->
 
-    <section class=" w-full bg-linear-to-b/hsl from-indigo-500 to-teal-400">
-        <div class="flex justify-center ">
-            <div class="flex flex-col mt-30 text-center gap-10">
-                <h2 class="text-7xl text-white font-medium md:text-6xl">
+    <section class=" w-full bg-linear-to-b/hsl from-indigo-500 to-teal-400 sm:pl-5">
+        <div class="flex justify-center 2xl:mb-30 pt-10 ">
+            <div class="flex flex-col mt-30 text-center gap-10 lg:mb-15">
+                <h2 class="text-7xl text-white font-medium sm:text-5xl text-start md:text-center md:text-6xl mr-2">
                     Everything you need to run your books.
                 </h2>
-                <p class=" text-2xl font-medium mx-auto text-white opacity-75 ">
+                <p class=" text-2xl font-medium mx-auto text-white opacity-75 sm:text-xl text-start md:text-center ">
                     Well everything you need if you aren’t that picky about minor details like tax compliance.
                 </p>
             </div>
         </div>
-        <div class="flex pl-120 mt-26 ">
-            <div class="flex-col gap-2 mt-20 rounded-4xl ">
-                <div class=" cursor-pointer w-130 shadow-2xl/30 p-8 rounded-l-lg">
-                    <h3 class="text-2xl font-medium text-white mb-3">
+        <div class=" flex mt-26 sm:pl-0 sm:mt-10 lg:flex-row sm:flex-col lg:pb-20 xl:pl-20 ">
+            <div class="flex flex-col gap-2 mt-20 rounded-4xl sm:flex-row lg:flex-col lg:gap-0 2xl:ml-100">
+            
+                <div class=" cursor-pointer  shadow-2xl/30 p-8 rounded-l-lg sm:w-35 sm:p-5 lg:w-100 2xl:w-130">
+                    <h3 class="text-2xl font-medium text-white mb-3 sm:text-xl lg:mb-1 2xl:text-2xl 2xl:mb-2">
                         Payroll
                     </h3>
-                    <p class=" text-lg leading-6 font-medium text-white opacity-95 xl:block md:hidden">
+                    <p class=" text-lg leading-6 font-medium text-white opacity-95 sm:hidden lg:block lg:text-sm 2xl:text-lg">
                         Keep track of everyone's salaries and whether or not they've been
                         paid. Direct deposit not supported.
                     </p>
                 </div>
-                <div class=" cursor-pointer w-130 hover:shadow-2xl/30 rounded-l-lg p-8">
-                    <h3 class="text-2xl font-bold mb-3 text-white">
+                <div class=" cursor-pointer hover:shadow-2xl/30 rounded-l-lg p-8 sm:w-35 sm:p-5 lg:w-100 2xl:w-130">
+                    <h3 class="text-2xl font-bold mb-3 text-white sm:text-xl lg:mb-1 2xl:text-2xl 2xl:mb-2">
                         Claim expenses
                     </h3>
-                    <p class=" text-lg leading-6 font-medium text-white opacity-95 xl:block md:hidden">
+                    <p class=" text-lg leading-6 font-medium text-white opacity-95 sm:hidden lg:block lg:text-sm 2xl:text-lg">
                         All of your receipts organized into one place, as long as you don't
                         mind typing in the data by hand.
                     </p>
                 </div>
-                <div class=" cursor-pointer w-130 hover:shadow-2xl/30 rounded-l-lg p-8">
-                    <h3 class="text-2xl font-bold text-white mb-3">
+                <div class=" cursor-pointer hover:shadow-2xl/30 rounded-l-lg p-8 sm:w-35 lg:w-100 2xl:w-130">
+                    <h3 class="text-2xl font-bold text-white mb-3 sm:text-xl lg:mb-1 2xl:text-2xl 2xl:mb-2">
                         VAT handling
                     </h3>
-                    <p class=" text-lg leading-6 font-medium text-white opacity-95 xl:block md:hidden">
+                    <p class=" text-lg leading-6 font-medium text-white opacity-95 sm:hidden lg:block lg:text-sm 2xl:text-lg">
                         We only sell our software to companies who don't deal with VAT at
                         all, so technically we do all the VAT stuff they need.
                     </p>
                 </div>
-                <div class=" cursor-pointer w-130 hover:shadow-2xl/30 rounded-l-lg p-8">
-                    <h3 class="text-2xl font-bold mb-3 text-white">
+                <div class=" cursor-pointer hover:shadow-2xl/30 rounded-l-lg p-8 sm:w-35 lg:w-100 2xl:w-130">
+                    <h3 class="text-2xl font-bold mb-3 text-white sm:text-xl lg:mb-1 2xl:text-2xl 2xl:mb-2">
                         Reporting
                     </h3>
-                    <p class=" text-white text-lg leading-6 font-medium  opacity-95 xl:block md:hidden">
+                    <p class=" text-white text-lg leading-6 font-medium  opacity-95 sm:hidden lg:block lg:text-sm 2xl:text-lg">
                         Easily export your data into an Excel spreadsheet where you can do
                         whatever the hell you want with it.
                     </p>
                 </div>
             </div>
-            <div class="w-full">
-                <img src="image.png" alt="image" class="w-full object-center object-cover rounded-l-2xl mb-30">
+            <div class="lg:w-full lg:h-full">
+                <img src="image.png" alt="image" class="w-full object-center object-cover rounded-l-2xl lg:w-full lg:h-178 lg:object-center 2xl:h-full">
             </div>
         </div>
 
@@ -135,25 +136,27 @@
 
     <!-- business tasks section -->
 
-    <section class=" w-full pl-80 pr-80 md:pl-10 md:pr-10">
+    <section class=" w-full sm:pr-5 sm:pl-5 2xl:pl-80 2xl:pr-80">
         <div class="flex flex-col mt-40 mb-28">
             <div class="w-full flex gap-7 flex-col mb-40">
-                <h2 class="mx-auto text-6xl font-medium ">
+                <h2 class=" text-6xl font-medium sm:text-5xl sm:text-start 2xl:text-center 2xl:text-6xl ">
                     Simplify everyday business tasks.
                 </h2>
-                <p class="opacity-70 w-1/2 mx-auto text-center text-2xl font-medium md:w-200 md:text-xl">
+               <div class="mx-auto">
+                 <p class="opacity-70 w-1/2 mx-auto text-center text-2xl font-medium sm:mx-0 text-start sm:w-full text-xl md:text-center 2xl:text-2xl mt-5 2xl:w-230">
                     Because you’d probably be a little confused if we suggested you complicate
                     your everyday business tasks instead.
                 </p>
+               </div>
 
             </div>
-            <div class=" flex gap-10 justify-center mb-17 ">
-                <div class=" flex flex-col gap-5 pt-8 pb-8 pr-20 pl-20 shadow-xl/1">
+            <div class=" flex gap-10 justify-center mb-17 sm:flex-col lg:flex-row ">
+                <div class=" flex flex-col gap-5 pt-8 pb-8 pr-20 pl-20 shadow-xl/1 sm:pl-5 sm:pr-5">
                     <img src=" SVG (1).png" alt=""
-                        class=" cursor-pointer h-12 bg-blue-500 rounded-xl w-12 shadow-2xl/30 mb-3 hover:opacity-100">
+                        class=" cursor-pointer h-12 bg-blue-500 rounded-xl w-12 shadow-2xl/30 mb-3 hover:opacity-100 lg:h-10 lg:w-10">
                     <span
-                        class=" cursor-pointer text-xl font-medium opacity-80 text-blue-800 hover:opacity-100">Reporting</span>
-                    <h3 class="text-2xl capitalize font-medium">
+                        class=" cursor-pointer text-xl font-medium opacity-80 text-blue-800 hover:opacity-100 lg:text-lg">Reporting</span>
+                    <h3 class="text-2xl capitalize font-medium lg:text-lg">
                         Stay on top of things with always up-
                         to-date reporting features.
                     </h3>
@@ -163,37 +166,37 @@
                         for posterity.
                     </p>
                 </div>
-                <div class=" flex flex-col gap-5 pt-8 pb-8 pr-20 pl-20 shadow-xl/1">
+                <div class=" flex flex-col gap-5 pt-8 pb-8 pr-20 pl-20 shadow-xl/1 sm:pl-5 sm:pr-5">
                     <img src="SVG (2).png" alt=""
-                        class=" cursor-pointer h-12 bg-gray-500 rounded-xl w-12 shadow-2xl/30 mb-3 opacity-70 hover:opacity-100">
-                    <span class=" cursor-pointer text-xl font-medium opacity-70 hover:opacity-100 ">Inventory</span>
-                    <h3 class="text-2xl capitalize font-medium">
+                        class=" cursor-pointer h-12 bg-gray-500 rounded-xl w-12 shadow-2xl/30 mb-3 opacity-70 hover:opacity-100 lg:h-10 lg:w-10">
+                    <span class=" cursor-pointer text-xl font-medium opacity-70 hover:opacity-100 lg:text-lg">Inventory</span>
+                    <h3 class="text-2xl capitalize font-medium lg:text-xl">
                         Never lose track of what’s in stock with
                         accurate inventory tracking.
                     </h3>
-                    <p class="text-xl opacity-70 font-medium">
+                    <p class="text-xl opacity-70 font-medium lg:text-lg">
                         We don’t offer this as part of our software but that
                         statement is inarguably true. Accurate inventory tracking
                         would help you for sure.
                     </p>
                 </div>
-                <div class=" flex flex-col gap-5 pt-8 pb-8 pr-20 pl-20 shadow-xl/1">
+                <div class=" flex flex-col gap-5 pt-8 pb-8 pr-20 pl-20 shadow-xl/1 sm:pl-5 sm:pr-5">
                     <img src="SVG (3).png" alt=""
-                        class=" cursor-pointer h-12 bg-gray-500 rounded-xl w-12 shadow-2xl/30 mb-3 opacity-70 hover:opacity-100">
-                    <span class=" cursor-pointer text-xl font-medium opacity-70 hover:opacity-100"> Contacts</span>
-                    <h3 class="text-2xl capitalize font-medium">
+                        class=" cursor-pointer h-12 bg-gray-500 rounded-xl w-12 shadow-2xl/30 mb-3 opacity-70 hover:opacity-100 lg:w-10 lg:h-10">
+                    <span class=" cursor-pointer text-xl font-medium opacity-70 hover:opacity-100 lg:text-lg"> Contacts</span>
+                    <h3 class="text-2xl capitalize font-medium lg:text-xl">
                         Organize all of your contacts, service
                         providers, and invoices in one place.
                     </h3>
-                    <p class="text-xl opacity-70 font-medium">
+                    <p class="text-xl opacity-70 font-medium lg:text-lg">
                         This also isn’t actually a feature, it’s just some friendly
                         advice. We definitely recommend that you do this, you’ll
                         feel really organized and professional.
                     </p>
                 </div>
             </div>
-            <div class="mx-auto w-400 h-170 rounded-4xl p-12 bg-gray-300">
-                <img src="image.png" alt=""
+            <div class="mx-auto w-370 h-170 rounded-4xl p-12 bg-gray-400 sm:w-150 sm:h-100 sm:object-center sm:p-4 lg:w-249 lg:h-155 2xl:h-200 2xl:w-350 object-center">
+                 <img src="image.png" alt="image"
                     class="flex justify-center w-full h-full object-center rounded-4xl object-cover object-center">
             </div>
 
@@ -202,15 +205,17 @@
 
     <!-- get start section  -->
 
-    <section class="w-full flex justify-center bg-linear-to-b/decreasing from-indigo-500 to-teal-400 mt-40">
-        <div class="flex flex-col gap-5 mt-40 mb-40">
-            <h2 class=" text-6xl font-medium text-center text-white">
+    <section class="w-full flex justify-center bg-linear-to-b/decreasing from-indigo-500 to-teal-400 mt-40 lg:mt-20">
+        <div class="flex flex-col gap-5 mt-40 mb-40 ">
+            <h2 class=" text-6xl font-medium text-center text-white 2xl:text-8xl">
                 Get started today
             </h2>
-            <p class="text-xl text-center font-medium opacity-80 text-white w-200">
+        
+                <p class="text-xl text-center font-medium opacity-80 text-white w-200 sm:w-140 mx-auto">
                 It’s time to take control of your books. Buy our software so you
                 can feel like you’re doing something productive.
             </p>
+        
             <div class="flex justify-center">
                 <button class="text-xl pt-2 pb-2 pr-4 pl-4 bg-white mt-10 font-medium rounded-4xl">Get 6 months
                     free</button>
@@ -221,17 +226,17 @@
 
     <!-- businesses worldwide section -->
 
-    <section class="w-full pr-15 pl-15">
+    <section class="w-full pr-15 pl-15 sm:pl-5 sm:pr-5">
 
-        <div class="mt-40 mb-40 ml-80 mr-80  ">
+        <div class=" sm:ml-0 sm:mr-0 2xl:mt-40 2xl:mb-40 2xl:ml-80 2xl:mr-80 ">
 
             <!-- head -->
-            <div class="flex flex-col text-center mb-20 ">
-                <h2 class="text-6xl">
+            <div class="flex flex-col text-center mb-20 sm:text-start">
+                <h2 class="text-6xl sm:text-4xl md:text-5xl lg:text-center lg:text-6xl 2xl:text-8xl mb-2">
                     Loved by businesses worldwide.
                 </h2>
-                <div class="flex justify-center">
-                    <p class="text-2xl w-230 font-medium mt-10 opacity-70">
+                <div class="flex justify-center sm:justify-start 2xl:justify-center">
+                    <p class="text-2xl w-230 font-medium mt-10 opacity-70 sm:w-140 sm:mt-5 text-xl md:text-center lg:w-270 lg:mt-8 2xl:text-2xl">
                         Our software is so simple that people can’t help but fall in love with it. Simplicity
                         is easy when you just skip tons of mission-critical features.
                     </p>
@@ -239,19 +244,19 @@
             </div>
             <!-- end  -->
 
-            <div class=" grid grid-cols-3 grid-rows-5 gap-5">
+            <div class="  sm:flex flex-col sm:gap-10  lg:grid grid-cols-3 grid-rows-5 gap-1 ">
 
                 <!-- start  -->
-                <div class="shadow-2xl/30 rounded-4xl row-span-2 pl-10 pr-4 pb-4 pt-10 mr-4 ml-4">
-                    <p class="text-xl font-medium">
+                <div class="shadow-2xl/30 rounded-4xl row-span-2 pl-10 pr-4 pb-4 pt-10 mr-4 ml-4 sm:ml-0 lg:pl-5 lg:pb-0 ">
+                    <p class="text-xl font-medium lg:text-lg">
                         TaxPal is so easy to use I can’t help but
                         wonder if it’s really doing the things the
                         government expects me to do Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur!
                     </p>
-                    <div class="w-90 opacity-5 h-1 bg-black mb-7 mt-7 md:w-180">
+                    <div class="w-90 opacity-5 h-1 bg-black mb-7 mt-7 md:w-180 lg:w-60">
 
                     </div>
-                    <div class="flex justify-between">
+                    <div class="flex justify-between lg: mt-14">
                         <div class="flex flex-col gap-3">
                             <span class="text-lg font-medium">
                                 Sheryl Berge
@@ -269,21 +274,20 @@
                 <!-- end  -->
 
                 <!-- start 2 -->
-                <div class=" row-span-3 shadow-2xl/30 rounded-4xl row-span-2 pt-10 pl-10 pb-4 pr-4 mr-4 ml-4 ">
-                    <p class="text-xl font-medium">
+                <div class=" row-span-3 shadow-2xl/30 rounded-4xl row-span-2 pt-10 pl-10 pb-4 pr-4 mr-4 ml-4 sm:ml-0 lg:pl-5">
+                    <p class="text-xl font-medium lg:text-lg">
                         The best part about TaxPal is every time I
                         pay my employees, my bank balance
                         doesn’t go down like it used to. Looking
                         forward to spending this extra cash when
                         I figure out why my card is being
-                        declined Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus Lorem ipsum dolor sit
-                        amet consectetur, adipisicing elit. Soluta!
+                        declined Lorem ips
                     </p>
-                    <div class="w-90 opacity-5 h-1 bg-black mb- mt-15">
+                    <div class="w-90 opacity-5 h-1 bg-black mb- mt-15 lg:w-60 lg:mt-20">
 
 
                     </div>
-                    <div class="flex justify-between mt-10">
+                    <div class="flex justify-between mt-10 lg:mt-14">
                         <div class="flex flex-col gap-3 mt-10">
 
 
@@ -302,15 +306,15 @@
                 <!-- end  -->
 
                 <!-- start  -->
-                <div class=" shadow-2xl/30 rounded-4xl row-span-2 pl-10 pr-4 pb-4 pt-10 mr-4 ml-4">
-                    <p class="text-xl font-medium">
+                <div class=" shadow-2xl/30 rounded-4xl row-span-2 pl-10 pr-4 pb-4 pt-10 mr-4 ml-4 sm:ml-0 lg:pl-5">
+                    <p class="text-xl font-medium lg:text-lg">
                         I used to have to remit tax to the EU and
                         with TaxPal I somehow don’t have to do
                         that anymore. Nervous to travel there
                         now though.
                     </p>
-                    <div class="w-90 opacity-5 h-1 bg-black mb-7 mt-7"></div>
-                    <div class="flex justify-between">
+                    <div class="w-90 opacity-5 h-1 bg-black mb-7 mt-7 lg:w-60 mt-15"></div>
+                    <div class="flex justify-between lg:mt-20">
                         <div class="flex flex-col gap-3">
                             <span class="text-xl font-medium">
                                 Peter Renolds
@@ -327,18 +331,18 @@
                 <!-- end  -->
 
                 <!-- start  -->
-                <div class="  shadow-2xl/30 rounded-4xl row-span-2 pl-10 pr-4 pb-4 pt-10 mr-4 ml-4">
-                    <p class="text-xl font-medium">
+                <div class="  shadow-2xl/30 rounded-4xl row-span-2 pl-10 pr-4 pb-4 pt-10 mr-4 ml-4 sm:ml-0 lg:pl-5">
+                    <p class="text-xl font-medium lg:text-lg">
                         I’m trying to get a hold of someone in
                         support, I’m in a lot of trouble right now
                         and they are saying it has something to
                         do with my books. Please get back to me
                         right away.
                     </p>
-                    <div class="w-90 opacity-5 h-1 bg-black mb-7 mt-7">
+                    <div class="w-90 opacity-5 h-1 bg-black mb-7 mt-7 lg:w-60">
 
                     </div>
-                    <div class="flex justify-between">
+                    <div class="flex justify-between lg:mt-2">
                         <div class="flex flex-col gap-3">
                             <span class="text-xl font-medium">
                                 Amy Hahn
@@ -356,15 +360,15 @@
                 <!--end -->
 
                 <!-- start -->
-                <div class="  shadow-2xl/30 rounded-4xl row-span-2 pl-10 pr-4 pb-4 pt-10 mr-4 ml-4">
-                    <p class="text-xl font-medium">
+                <div class="  shadow-2xl/30 rounded-4xl row-span-2 pl-10 pr-4 pb-4 pt-10 mr-4 ml-4 sm:ml-0 lg:pl-5">
+                    <p class="text-xl font-medium lg:text-lg">
                         There are so many things I had to do with
                         my old software that I just don’t do at all
                         with TaxPal. Suspicious but I can’t say I
                         don’t love it.
                     </p>
-                    <div class="w-90 opacity-5 h-1 bg-black mb-7 mt-7"></div>
-                    <div class="flex justify-between">
+                    <div class="w-90 opacity-5 h-1 bg-black mb-7 mt-7 lg:w-60 mt-16"></div>
+                    <div class="flex justify-between lg:mt-14">
                         <div class="flex flex-col gap-3">
                             <span class="text-xl font-medium">
                                 Erin Powlowski
@@ -382,16 +386,16 @@
 
                 <!-- start  -->
 
-                <div class=" row-span-3 shadow-xl/20 rounded-4xl row-span-2 pt-10 pl-10 pb-4 pr-4 mr-4 ml-4 ">
-                    <p class="text-xl font-medium">
+                <div class=" row-span-3 shadow-xl/20 rounded-4xl row-span-2 pt-10 pl-10 pb-4 pr-4 mr-4 ml-4 sm:ml-0 lg:pl-5">
+                    <p class="text-xl font-medium lg:text-lg">
                         This is the fourth email I’ve sent to your
                         support team. I am literally being held in
                         jail for tax fraud. Please answer your
                         damn emails, this is important.
                     </p>
-                    <div class="w-90 opacity-5 h-1 bg-black mb-7 mt-7"></div>
+                    <div class="w-90 opacity-5 h-1 bg-black mb-7 mt-7 lg:w-60 mt-13"></div>
 
-                    <div class="flex justify-between">
+                    <div class="flex justify-between lg:mt-15">
                         <div class="flex flex-col gap-3">
                             <span class="text-xl font-medium">
                                 Amy Hahn
@@ -401,7 +405,7 @@
                             </p>
                         </div>
                         <div>
-                            <img src="icon (6).png" alt=" image" class="rounded-full h-17 w-17 object-center ">>
+                            <img src="icon (6).png" alt=" image" class="rounded-full h-17 w-17 object-center ">
                         </div>
                     </div>
                 </div>
@@ -415,17 +419,17 @@
     <!--simple pricing section  -->
 
     <section class="pt-30 pb-25 w-full bg-gray-900">
-        <div class="">
-            <div class=" mb-28">
-                <h2 class=" text-center font-medium mb-7 text-6xl text-white ">
+        <div class="sm:pl-5 pr-3">
+            <div class=" mb-28 sm:mb-20">
+                <h2 class=" text-center font-medium mb-7 text-white sm:text-start sm:text-5xl md:text-center lg:text-6xl">
                     Simple pricing,for everyone.
                 </h2>
-                <p class=" text-center text-2xl text-white opacity-70">
+                <p class=" text-center text-2xl text-white opacity-70 sm:text-start md:text-center text-xl lg:text-2xl">
                     It doesn’t matter what size your business is, our software won’t work well for you.
                 </p>
             </div>
-            <div class="  flex justify-center gap-2 mb-25 mr-115 ml-115">
-                <div class="shadow-xl flex flex-col gap-2 pt-10 pb-10 pl-6 pr-6 bg-transparent">
+            <div class=" flex justify-center gap-2 mb-25 mr-115 ml-115 sm:flex-col sm:mr-0 sm:ml-0 sm:pr-5 lg:flex-row">
+                 <div class="shadow-xl flex flex-col gap-2 pt-10 pb-10 pl-6 pr-6 rounded-4xl md:mx-auto md:w-180 md:order-2 lg:w-100">
 
                     <h3 class="text-5xl font-medium mb-5 text-white">$9</h3>
                     <span class="text-xl font-medium text-white">
@@ -465,8 +469,8 @@
                     </div>
                 </div>
 
-                <div class="shadow-xl flex flex-col gap-2 pt-10 pb-10 pl-6 pr-6  bg-blue-500 rounded-4xl md:mx-auto md:w-180 md:order-1">
-                    <h3 class="text-5xl font-medium mb-5 text-white">$15</h3>
+                <div class="shadow-xl flex flex-col gap-2 pt-10 pb-10 pl-6 pr-6  bg-blue-500 rounded-4xl md:mx-auto md:w-180 md:order-1 lg:w-100 xl:order-2 lg:order-2">
+                    <h3 class="text-5xl font-medium mb-5 text-white ">$15</h3>
                     <span class="text-xl font-medium text-white">
                         Small business
                     </span>
@@ -513,7 +517,7 @@
                 </div>
 
 
-                <div class="shadow-xl flex flex-col gap-2 pt-10 pb-10 pl-6 pr-6  bg-transparent rounded-4xl md:mx-auto md:w-180 md:order-3">
+                <div class="shadow-xl flex flex-col gap-2 pt-10 pb-10 pl-6 pr-6  bg-transparent rounded-4xl md:mx-auto md:w-180 md:order-3  lg:w-100 xl:order-3 lg:order-3">
 
                     <h3 class="text-5xl font-medium mb-5 text-white">$39</h3>
                     <span class="text-xl font-medium text-white">
